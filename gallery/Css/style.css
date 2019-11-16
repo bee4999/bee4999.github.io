@@ -1,0 +1,95 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
+ } 
+ body{
+ 	 background-color: #eee; 
+
+ }
+
+ .main{
+ 	 background-color: #fff;
+ 	 width: 95%;
+ 	 max-width: 1000px;
+ 	 display: flex;
+ 	 flex-wrap: wrap;
+ 	 margin: auto;
+ 	 box-shadow: 0 0 10px 1px rgba(0,0,0,0.3)
+
+}
+.item{
+	 max-height: 256px;
+	 max-width: 490px;
+	 height: calc(95vw/2/16*9);
+	 width: calc(90vw - 10px);
+     background-color: #CECECE;
+     background-position: center;
+    background-size: cover;
+     -webkit-background-size:cover;
+}
+.img-1{
+	 background-image: url('https://source.unsplash.com/1280x720/?eagle');
+}
+.img-2{
+	 background-image: url('https://source.unsplash.com/1280x720/?london');
+}
+.img-3{
+	 background-image: url('https://source.unsplash.com/1280x720/?sky');
+}
+.img-4{
+	 background-image: url('https://source.unsplash.com/1280x720/?mountin');
+}
+.img-5{
+	 background-image: url('https://source.unsplash.com/1280x720/?flamingo');
+}
+.img-6{
+	 background-image: url('https://source.unsplash.com/1280x720/?cactus');
+}
+.img-7{
+	 background-image: url('https://source.unsplash.com/1280x720/?lion');
+}
+.img-8{
+	  background-image: url('https://source.unsplash.com/1280x720/?bird');
+}
+.img-9{
+	 background-image: url('https://source.unsplash.com/1280x720/?city');
+}
+.img-10{
+	 background-image: url('https://source.unsplash.com/1280x720/?sea');
+}
+.img-11{
+	 background-image: url('https://source.unsplash.com/1280x720/?new york');
+}
+.img-12{
+	 background-image: url('https://source.unsplash.com/1280x720/?germany');
+}
+.heading{
+	 font-size: 40px;
+	 text-align: center;
+	 width: 100%;
+	 padding:30px 0;
+	 font-family:'Kulim Park', sans-serif;
+}
+.img-link{
+	 display: block;
+	 transition: 0.4s ease, transform 0.2s ease-in, box-shadow 0.3s ease-out;
+	 margin: 5px;
+}
+.img-link:hover{
+	 opacity: 1;
+	 transform: translate(-20px, 20px);
+	 z-index: 10;
+	 box-shadow: 0 0 200px 30px rgba(0,0,0,0.6);
+}
+.filters{
+     filter: hue-rotate(270deg);
+}
+.css{
+	 filter: opacity(50%)
+}
+.img{
+	 filter: grayscale(100%);
+	}
